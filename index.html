@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="./simplesite.css" rel="stylesheet">
+
+    <title>Cheap Flights</title>
+  </head>
+  <body style = "background-color: steelblue;">
+    <img src="airaier.png" alt="cloud" width="550" height="550" class = "image2">
+    <img src="planee (1).png" alt="cloud" width="550" height="550" class = "image3">
+    <div class="p-5" style="width: 800px; margin: auto; border: 2px solid black; background-color: white; margin-top: 50px;">
+      <main class="px-3" style="text-align: center;">
+          <h1>Find Cheap Flights!</h1>
+          <div class="content-section"> 
+            <p>Powered by Skyscanner API</p>
+            <br>  
+          </div>
+          <div style="text-align: left;">
+            Country (ex. US): <input id="input1" type="text"> 
+            <br><br>
+            Currency (ex. USD): <input id="input2" type="text">
+            <br><br>
+            Locale (ex. en-US): <input id="input3" type="text">
+            <br><br>
+            Origin Airport (ex. SFO-sky): <input id="input4" type="text">
+            <br><br>
+            Desintation Airport (ex. JFK-sky): <input id="input5" type="text">
+            <br><br>
+            Outbound Date (ex. yyyy-mm-dd): <input id="input6" type="text">
+            <br><br>
+            Inbound Date (ex. yyyy-mm-dd): <input id="input7" type="text">
+            <br><br><br>
+          </div>
+          <p>
+            <button onclick= "simplefunction()">Show Me Quotes</button>
+          </p>
+      </main>
+
+
+
+      <div id="Outputs">        
+      </div>
+
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+
+  </body>
+</html>
