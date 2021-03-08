@@ -36,7 +36,10 @@ function displayResponse(data){
 
 	const responseDisplay = document.querySelector("#Outputs");
 	 console.log(data);
-	 responseDisplay.textContent=data.Quotes[0].MinPrice 
+	 responseDisplay.textContent=("Cheapest flight: $" + data.Quotes[0].MinPrice + "\r\nInbound Departure Date: " + data.Quotes[0].InboundLeg.DepartureDate + 
+	 "\r\nOutbound Departure Date: " + data.Quotes[0].OutboundLeg.DepartureDate)
+
+
 
 
 }
