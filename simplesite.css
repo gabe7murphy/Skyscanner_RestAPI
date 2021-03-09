@@ -1,9 +1,10 @@
+/* font and color for parameter text */
 div {
     color: black;
     font-size: 22px;
     
 }
-
+/* font and color for header text */
 h1 {
     color: steelblue;
     font-size: 50px;
@@ -16,13 +17,14 @@ p {
     font-family: "Verdana", Times, serif;
 }
 
+/* font transition parameter for button */
 button {
     background-color: steelblue;
     color:white;
     font-size: large;
     transition: all 0.2s;
 }
-
+/* hover effect for button*/
 button:hover {background-color: grey}
 
 button:active {
@@ -31,6 +33,8 @@ button:active {
     transform: translateY(4px);
   }
 
+  /* Making sure the images are oriented and sized correctly*/
+  
 img {
     margin-top: 5px;
     margin-right: 1px;
